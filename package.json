@@ -1,0 +1,20 @@
+{
+  "name": "opti-loan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "Sn0wye",
+  "dependencies": {
+    "@fastify/one-line-logger": "^1.2.0",
+    "@fastify/type-provider-typebox": "^4.0.0",
+    "@sinclair/typebox": "^0.32.12",
+    "fastify": "^4.25.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
